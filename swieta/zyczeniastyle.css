@@ -1,0 +1,70 @@
+*{
+    margin: 0; 
+    font-family: 'Bahnschrift SemiBold';
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    height: 100%; 
+    width: 100%;
+    background-color: rgb(0,135,62);
+    overflow: hidden;
+}
+#glowny{
+    padding: 5%;
+    text-align: center;
+    color: white; 
+    font-size: large;
+    background-color: rgb(214,0,28);
+    height: 75%;
+    width: 35vw;
+    max-width: 35vw;
+    display: inline-block;
+    border: solid 10px;
+    border-color: rgb(214,0,28);
+    border-radius: 10px;
+    padding-top: 0; 
+}
+#lewa, #prawa{
+    height: 40vh;
+    padding: 15%;
+}
+#lewa{
+    padding-right: 5%;
+}
+#prawa{
+    padding-left: 5%;
+}
+#ramka{
+    height: 9vh;
+}
+p::before{
+    font-size: xx-large;
+    word-wrap: break-word;
+    content:"Madzia, jako że dzisiaj wigilia, to chciałbym ci życzyć z tej okazji";
+    animation-name: dupa;
+    animation-duration: 32s;
+    animation-timing-function: ease-in;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes dupa{
+    0%{ 
+        content:"Rozsądku - bo czasu straconego na martwienie się i straconych nerwów już nie odzyskasz, a ja, chociaż byłbym raczej dobrym wujkiem, to jeszcze jednak nie chciałbym nim zostawać";
+    }
+    25%{ 
+        content:"Szczęścia i pomyślności - żeby układało ci się w związku, żeby w domu wszystko dobrze szło, żebyś w szkole nie miała żadnych problemów";
+    }
+    50%{ 
+        content:"kasy i ruchania ofc a czego innego moglbym zyczyc badzmy powazni :))"; 
+    }
+    75%{ 
+        content:"Zdrowia - bo wiem że ostatnio trochę na nie narzekasz, więc chciałbym żeby było wszystko dobrze"; 
+    }
+    100%{ 
+        content:"i wiesz, to sa takie z serduszka życzenia bo sama dobrze wiesz ile dla mnie znaczysz, bez ciebie każdy dzień byłby cięższy"; 
+    }
+  }

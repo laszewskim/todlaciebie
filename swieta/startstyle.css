@@ -1,0 +1,52 @@
+*{
+    margin: 0; 
+    font-family: 'Bahnschrift SemiBold';
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    height: 100%; 
+    width: 100%;
+    background-color: rgb(0,135,62);
+    overflow: hidden;
+}
+#glowny{
+    padding: 5%;
+    text-align: center;
+    color: white; 
+    font-size: large;
+    background-color: rgb(214,0,28);
+    height: 35vh;
+    width: 35vw;
+    border: solid 10px;
+    border-color: rgb(214,0,28);
+    border-radius: 10px;
+    padding-top: 0; 
+}
+#lewa, #prawa{
+    height: 40vh;
+    padding: 15%;
+}
+#lewa{
+    padding-right: 5%;
+}
+#prawa{
+    padding-left: 5%;
+}
+#ramka{
+    height: 9vh;
+}
+#sub{
+    padding: 3%;
+    margin: 2%;
+    width: 10vh;
+    color: white; 
+    background-color: rgb(159, 12, 29);
+    border: solid 2px red; 
+    border-radius: 10px;
+}
+#sub:hover{
+    background-color: rgb(255,109,106);
+}
